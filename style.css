@@ -1,0 +1,97 @@
+@keyframes mudarCores {
+    0% {
+        background-color: blueviolet;
+    }
+
+    25% {
+        background-color: aqua;
+    }
+
+    50% {
+        background-color: crimson;
+    }
+
+    75% {
+        background-color: chartreuse;
+    }
+
+    100% {
+        background-color: blueviolet;
+    }
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: rgb(248, 248, 248); */
+    background-image: url(https://m.media-amazon.com/images/S/pv-target-images/2077b37f90f0da5fe8b93004c135e76706ca7095aa08d8f3bccd7a5c4888beb9._SX1080_FMjpg_.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+img {
+    margin: 25px;
+    margin-left: 85px;
+    height: 400px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 20px;
+}
+
+main {
+    /* border: solid 3px blue; */
+    border-radius: 30px;
+    width: 70%;
+    margin: auto;
+    padding: 25px;
+    background-color: #ffffff63;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: 600;
+    /* font-style: italic; */
+    /* font-stretch: extra-expanded; */
+    line-height: 20px;
+    /* letter-spacing: 10px; */
+    /* word-spacing: 5px; */
+    text-align: justify;
+    /* text-decoration: underline wavy red; */
+    /* text-transform: lowercase; */
+    text-indent: 50px;
+    text-shadow: 3px 5px 10px #0000003b;
+}
+
+h1 {
+    padding: 10px 5px;
+    margin: 20px 200px;
+    border-radius: 15px;
+
+    background-color: blueviolet;
+    animation:  mudarCores 5s infinite;
+    color: aliceblue;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600px;
+    text-align: center;
+    text-decoration: underline wavy red;
+    text-transform: uppercase;
+    text-shadow: 5px 3px 10px #00000067;
+}
+
+footer {
+    margin: 100px 0px 0px 0px;
+    padding: 30px;
+
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    background-color: blueviolet;
+}
+
